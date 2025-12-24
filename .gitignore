@@ -1,0 +1,79 @@
+# .gitignore for Node.js + Fastify + TypeScript projects
+# See https://github.com/github/gitignore for examples
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+lib/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage and test output
+coverage/
+.nyc_output/
+
+# Environment files (keep example files in repo)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Caches
+.cache/
+.parcel-cache/
+.next/cache/
+.turbo/
+.pnpm-store/
+.eslintcache
+
+# Misc
+*.swp
+*~
+# Ignore lockfiles? DO NOT ignore pnpm-lock.yaml (commit your lockfile).
+# If you use npm leave package-lock.json ignored only if you intentionally don't commit it.
+# Uncomment to ignore if you do not commit lockfiles:
+# package-lock.json
+# yarn.lock
+
+# Stryker, coverage tools, mutation testing
+.stryker-tmp/
+
+# Docker
+.dockerignore
+
