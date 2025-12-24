@@ -8,7 +8,12 @@
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "keywords": ["fastify", "typescript", "template", "starter"],
+  "keywords": [
+    "fastify",
+    "typescript",
+    "template",
+    "starter"
+  ],
   "author": "Abbos Sidiqov",
   "license": "MIT",
   "dependencies": {
